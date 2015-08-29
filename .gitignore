@@ -1,4 +1,7 @@
-/.settings/
-/bin/
-/gen/
+example/.settings/
+example/bin/
+example/gen/
+library/.settings/
+library/bin/
+library/gen/
 
