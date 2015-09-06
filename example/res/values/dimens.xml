@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- sliding menu -->
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <!-- title bar -->
+    <dimen name="title_bar_btn_size">50dp</dimen>
+
+    <!-- tab host -->
+    <dimen name="tab_host_height">60dp</dimen>
+
+    <!-- market -->
+    <dimen name="market_ads_height">180dp</dimen>
+    <dimen name="market_activity_height">120dp</dimen>
+
+    <!-- textsize -->
+    <dimen name="text_smallest">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_middle">16sp</dimen>
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_bigger">20dp</dimen>
+    <dimen name="text_biggest">22sp</dimen>
+
+    <!-- goods list -->
+    <dimen name="goods_img_size">160dp</dimen>
+    <dimen name="goods_icon_size">30dp</dimen>
+    <!-- goods detail -->
+    <dimen name="goods_detail_img_height">300dp</dimen>
+
+    <!-- shopping cart -->
+    <dimen name="shoppingcart_img_size">150dp</dimen>
+    <dimen name="amount_icon_height">35dp</dimen>
+    <dimen name="amount_icon_width">25dp</dimen>
+
+    <!-- my six -->
+    <dimen name="my_six_title_height">230dp</dimen>
+    <dimen name="header_icon_size">80dp</dimen>
+
+    <!-- address -->
+    <dimen name="address_detail_tv_info_width">80dp</dimen>
+    <dimen name="checkbox_text_padding">15dp</dimen>
+
+    <!-- order -->
+    <dimen name="order_pay_title_view_height">150dp</dimen>
+    <dimen name="order_pay_title_tv_width">200dp</dimen>
+    <dimen name="order_img_size">120dp</dimen>
+
+</resources>

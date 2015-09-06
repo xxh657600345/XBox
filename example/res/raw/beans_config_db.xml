@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean
+        id="baseDbAdapter"
+        class-name="com.idea.xbox.component.db.adapter.DbAdapter"
+        parent="baseTransaction" >
+        <properties>
+            <property
+                name="dao"
+                ref="dao" />
+        </properties>
+    </bean>
+    <bean
+        id="baseTransaction"
+        class-name="com.idea.xbox.component.db.adapter.DbInvocationHandler" >
+        <properties>
+            <property
+                name="proxyTargetClass"
+                value="true" />
+            <property name="transactionAttributes" >
+                <params>
+                    <param value="save*" />
+                    <param value="update*" />
+                    <param value="delete*" />
+                    <param value="execute*" />
+                </params>
+            </property>
+        </properties>
+    </bean>
+    <bean
+        id="dao"
+        class-name="com.idea.xbox.component.db.dao.DataAccessSupport"
+        singleton="true" >
+        <properties>
+            <property
+                name="datasource"
+                ref="datasource" />
+            <property
+                name="converter"
+                ref="sqiteConverter" />
+        </properties>
+    </bean>
+    <bean
+        id="datasource"
+        class-name="com.idea.xbox.component.db.connection.Datasource" >
+        <properties>
+            <property
+                name="id"
+                value="xbox_db" />
+            <property
+                name="databaseType"
+                value="sqlite" />
+            <property
+                name="databaseFile"
+                value="xbox.db" />
+            <property
+                name="databaseVersion"
+                value="1" />
+            <property
+                name="connectionSize"
+                value="1" />
+            <property
+                name="holdTime"
+                value="5" />
+            <property name="mappingFiles" >
+                <params>
+                    <param value="xml/db_mappings.xml" />
+                </params>
+            </property>
+        </properties>
+    </bean>
+    <bean
+        id="sqiteConverter"
+        class-name="com.idea.xbox.component.db.dao.sqlite.SQLiteStandardConverter" />
+
+</beans>

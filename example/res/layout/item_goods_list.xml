@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/item_goods_list_img"
+        android:layout_width="@dimen/goods_img_size"
+        android:layout_height="@dimen/goods_img_size"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/item_goods_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/item_goods_list_img"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:id="@+id/item_goods_list_package_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_goods_list_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/item_goods_list_img"
+        android:maxWidth="100dp"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/text_middle" />
+
+    <TextView
+        android:id="@+id/item_goods_list_sell_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/item_goods_list_title"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/text_middle" />
+
+    <LinearLayout
+        android:id="@+id/item_goods_list_app_price_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_goods_list_img"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/item_goods_list_img"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_goods_list_app_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/text_biggest" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/app_price"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/text_middle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_goods_list_cost_price_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_goods_list_img"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/item_goods_list_cost_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_bigger" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="@color/grey"
+                android:contentDescription="@string/goods_order_price" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/cost_price"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_small" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,265 @@
+<resources>
+
+    <string name="app_name">XML框架和Volley事例</string>
+
+    <!-- toast -->
+    <string name="toast_network_error">网络异常，请检查网络设置哦</string>
+    <string name="toast_coming_soon">敬请期待！</string>
+    <!-- login & register & change password -->
+    <string name="toast_login_success">登录成功</string>
+    <string name="toast_login_failed">登录失败</string>
+    <string name="toast_register_success">注册成功</string>
+    <string name="toast_register_failed">注册失败</string>
+    <string name="toast_get_code_first">请先获取验证码</string>
+    <string name="toast_verify_code_fail">验证码验证失败,请重新输入</string>
+    <string name="toast_get_code_success">获取验证码成功</string>
+    <string name="toast_get_code_failed">获取验证码失败</string>
+    <string name="toast_please_input_all">请把信息填写完整哦</string>
+    <string name="toast_invalid_account">账号格式不正确哦</string>
+    <string name="toast_invalid_phone">手机号格式不正确哦</string>
+    <string name="toast_invalid_password">为了保证账户安全，密码设置不低于6位哦</string>
+    <string name="toast_un_equal_origin_password">原密码未通过验证，请重新输入</string>
+    <string name="toast_un_equal_password">两次输入的密码需要相同才能注册哦</string>
+    <string name="toast_change_password_success">修改密码成功</string>
+    <string name="toast_change_password_fail">暂时无法修改密码哦</string>
+    <string name="toast_find_password_success">找回密码成功</string>
+    <string name="toast_find_password_fail">暂时无法找回密码哦</string>
+    <!-- market -->
+    <string name="toast_get_market_item_failed">暂时无法获取首页列表哦</string>
+    <string name="toast_get_new_goods_failed">暂时无法获取新品推荐列表哦</string>
+    <string name="toast_get_hot_goods_failed">暂时无法获取热卖产品列表哦</string>
+    <string name="toast_get_best_goods_failed">暂时无法获取精品推荐列表哦</string>
+    <!-- home -->
+    <string name="toast_press_back_exit">再按一次退出哦</string>
+    <!-- goods -->
+    <string name="toast_get_goods_detail_fail">暂时无法获取产品列表哦</string>
+    <string name="toast_get_goods_list_fail">暂时无法获取产品列表哦</string>
+    <string name="toast_get_like_list_fail">暂时无法获取收藏列表哦</string>
+    <string name="toast_like_success">收藏成功</string>
+    <string name="toast_like_fail">暂时无法收藏此商品哦</string>
+    <string name="toast_unlike_success">取消收藏成功</string>
+    <string name="toast_unlike_fail">暂时无法取消收藏此商品哦</string>
+    <!-- shopping cart -->
+    <string name="toast_get_shoppingcart_list_fail">暂时无法获取您的购物车信息哦</string>
+    <string name="toast_add_to_cart_success">成功添加到购物车</string>
+    <string name="toast_add_to_cart_fail">暂时无法添加到购物车哦</string>
+    <string name="toast_update_cart_success">修改购物车成功</string>
+    <string name="toast_update_cart_fail">暂时无法修改购物车信息哦</string>
+    <string name="toast_delete_cart_success">删除成功</string>
+    <string name="toast_delete_cart_fail">暂时无法删除哦</string>
+    <string name="toast_cannot_add_to_cart_more">已达到最大购买量99个，如想购买可以另外下单哦</string>
+    <string name="toast_cannot_add_to_cart_less">最少添加一个哦，亲</string>
+    <string name="toast_cart_choose_one">亲，至少选择一个商品进行结算哦</string>
+    <!-- address -->
+    <string name="toast_address_get_list_fail">暂时无法获取地址列表哦</string>
+    <string name="toast_address_get_region_list_fail">暂时无法获取区域列表哦</string>
+    <string name="toast_address_add_success">添加地址成功</string>
+    <string name="toast_address_add_fail">暂时无法添加地址哦</string>
+    <string name="toast_address_delete_success">删除地址成功</string>
+    <string name="toast_address_delete_fail">暂时无法刪除地址哦</string>
+    <string name="toast_address_edit_success">修改地址成功</string>
+    <string name="toast_address_edit_fail">暂时无法修改地址哦</string>
+    <string name="toast_address_add_new">您还没有地址记录哦，请添加一个吧</string>
+    <!-- search -->
+    <string name="toast_search_goods_fail">暂时无法搜索此商品哦</string>
+
+    <!-- order -->
+    <string name="toast_get_order_list_fail">暂时无法获取订单列表哦</string>
+    <string name="toast_add_order_fail">暂时无法生成订单哦</string>
+    <string name="toast_submit_order_fail">暂时无法提交订单哦</string>
+    <string name="toast_pay_order_fail">暂时无法支付哦</string>
+    <string name="toast_cancel_order_fail">暂时无法取消订单哦</string>
+    <string name="toast_add_order_success">成功生成订单</string>
+    <string name="toast_submit_order_success">提交订单成功</string>
+    <string name="toast_pay_order_success">支付成功</string>
+    <string name="toast_cancel_order_success">取消订单成功</string>
+    <string name="toast_invalid_coupon">您选择的优惠券不符合使用条件哦</string>
+
+    <!-- comment -->
+    <string name="toast_get_goods_comments_fail">暂时无法获取评论列表哦</string>
+    <string name="toast_add_goods_comment_success">发表评论成功</string>
+    <string name="toast_add_goods_comment_fail">暂时无法发布评论哦</string>
+
+    <!-- dialog -->
+    <string name="goods_empty">亲，暂时没有此类商品哦</string>
+    <string name="loading_crazy">玩命加载中"&#046;""&#046;""&#046;"</string>
+    <string name="loading">正在加载</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_delete_shoppingcart">真的不要我了么？</string>
+    <!-- home -->
+    <string name="market_search_hint">米粒</string>
+    <string name="seckill_goods">限时秒杀</string>
+    <string name="new_goods">新品上架</string>
+    <string name="hot_goods">热卖产品</string>
+    <string name="best_goods">精品推荐</string>
+    <string name="gift_package">礼品套餐</string>
+    <string name="promote_goods">特价秒杀</string>
+    <string name="shake_off">摇一摇</string>
+    <string name="sign_everyday">每日签到</string>
+    <string name="market">首页</string>
+    <string name="category">分类</string>
+    <string name="shoppingcart">购物车</string>
+    <string name="mysix">我的米粒</string>
+    <!-- search -->
+    <string name="search">搜索</string>
+    <string name="hint_search">亲，请输入想要搜索的内容哦</string>
+    <string name="search_pull_surprise">亲，下拉有惊喜哦</string>
+    <!-- refresh listview -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载.</string>
+    <string name="xlistview_header_hint_loading_success">加载成功</string>
+    <string name="xlistview_header_hint_loading_failed">加载失败</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- goods list -->
+    <string name="app_price">移动端特享价</string>
+    <string name="cost_price">原价</string>
+    <string name="goods_order_all">综合</string>
+    <string name="goods_order_sell">销量</string>
+    <string name="goods_order_price">价格</string>
+    <!-- goods detail -->
+    <string name="goods_detail_comment">评论</string>
+    <string name="goods_detail">商品详情</string>
+    <string name="goods_detail_pay">立即结账</string>
+    <string name="goods_detail_add_cart">加入购物车</string>
+    <!-- shopping cart -->
+    <string name="shoppingcart_empty">购物车还没有商品，\n赶紧选购吧！</string>
+    <string name="shoppingcart_go2home">返回购物</string>
+    <string name="shoppingcart_buy">购买商品</string>
+    <string name="shoppingcart_sum">总金额:</string>
+    <string name="shoppingcart_pay">结算</string>
+    <string name="shoppingcart_choose_all">全选</string>
+    <!-- my six -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="score">积分</string>
+    <string name="balance">余额</string>
+    <string name="coupons">优惠券</string>
+    <string name="my_orders">我的订单</string>
+    <string name="my_like">我的收藏</string>
+    <string name="my_address">我的地址</string>
+    <string name="city_list">城市列表</string>
+    <!-- login & register & find password & change password -->
+    <string name="auto_login">自动登录中</string>
+    <string name="please_login">请您先登录哦</string>
+    <string name="hint_login_username">账号</string>
+    <string name="hint_login_password">密码</string>
+    <string name="hint_register_username">请输入手机号</string>
+    <string name="hint_origin_password">原密码</string>
+    <string name="hint_register_password">设置密码</string>
+    <string name="hint_register_password_confirm">确认密码</string>
+    <string name="hint_register_verify_code">请输入验证码</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="find_password">找回密码</string>
+    <string name="change_password">修改密码</string>
+    <!-- settings -->
+    <string name="system_settings">系统设置</string>
+    <string name="call_service">联系客服</string>
+    <string name="service_num">400&#8211;928&#8211;5757</string>
+    <string name="version_info">版本信息</string>
+    <string name="version_no">版本号</string>
+    <string name="version_check">检查新版本</string>
+    <string name="version_latest">当前版本已是最新版本</string>
+    <string name="app_settings">应用设置</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="cache_cleared">已释放所有缓存数据</string>
+    <string name="push_service">推送服务</string>
+    <string name="logout">退出当前账号</string>
+    <string name="about_us">关于我们</string>
+    <string name="settings_shipping">配送说明</string>
+    <!-- address -->
+    <string name="default_address">"&#091;"默认"&#093;"</string>
+    <string name="add_address">新增收货地址</string>
+    <string name="edit_address">编辑地址</string>
+    <string name="address_consignee">收货人</string>
+    <string name="address_choose_region">区域选择</string>
+    <string name="address_detail">详细地址</string>
+    <string name="address_mobile">联系方式</string>
+    <string name="address_tag">地标建筑</string>
+    <string name="address_delete">删除地址</string>
+    <string name="address_save">保存</string>
+    <string name="address_new">新建地址</string>
+    <string name="address_set_default">设置为默认地址</string>
+    <string name="address_zipcode">邮编</string>
+    <string name="address_choose_input">选填</string>
+    <string name="address_must_input">必填</string>
+    <!-- order -->
+    <string name="order_delivery_address">送货地址</string>
+    <string name="order_choose_address">选择送货地址</string>
+    <string name="order_delivery_info">配送信息</string>
+    <string name="order_delivery_type">配送方式</string>
+    <string name="order_delivery_type_mysix">此商品由禾云生活进行配送，如您有配送问题需要帮助，请拨打我们的客服电话400-928-5757</string>
+    <string name="order_pay_info">支付信息</string>
+    <string name="order_pay_type">支付方式</string>
+    <string name="order_choose_coupon">请选择优惠券</string>
+    <string name="order_pay_coupon">优惠券</string>
+    <string name="order_pay_score">使用积分抵扣</string>
+    <string name="order_pay_balance">使用余额抵扣</string>
+    <string name="order_bill_info">发票信息</string>
+    <string name="order_bill_need">是否需要发票</string>
+    <string name="order_bill_header">发票抬头</string>
+    <string name="order_bill_person">个人</string>
+    <string name="order_bill_company">公司</string>
+    <string name="order_bill_address">寄送地址</string>
+    <string name="order_notice_card_info">备注</string>
+    <string name="order_hint_notice">请写下重要的备注哦</string>
+    <string name="order_notice">是否需要备注</string>
+    <string name="order_card">是否添加贺卡</string>
+    <string name="order_goods_list">商品清单</string>
+    <string name="order_price_list">价格清单</string>
+    <string name="order_price_sum">商品总价</string>
+    <string name="order_price_ship_cost">运费</string>
+    <string name="order_deduction_score">积分抵扣</string>
+    <string name="order_deduction_coupon">优惠券抵扣</string>
+    <string name="order_deduction_balance">余额抵扣</string>
+    <string name="order_submit">提交订单</string>
+    <string name="order_pay_title_top">我们已收到您的订单</string>
+    <string name="order_pay_title_bottom">将尽快处理</string>
+    <string name="order_no">编号 : </string>
+    <string name="order_status_sending">待发货</string>
+    <string name="order_status_paying">待付款</string>
+    <string name="order_status_paid">已支付</string>
+    <string name="order_status_cancel">已取消</string>
+    <string name="order_status_completed">已完成</string>
+    <string name="order_status_uncompleted">未完成</string>
+    <string name="order_pay_notice_top">请您于三十分钟内完成支付</string>
+    <string name="order_pay_notice_bottom">否则订单将会被取消</string>
+    <string name="go_home">回到首页</string>
+    <string name="order_pay">立即支付</string>
+    <string name="order_confirm">确认订单</string>
+    <string name="order_empty">您没有此类订单哦</string>
+    <string name="order_cancel">取消订单</string>
+    <string name="order_pay_status">支付状态</string>
+    <string name="order_sum">订单总额</string>
+    <string name="order_add_time">下单时间</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_no_bill">无</string>
+    <string name="order_i_see">我知道啦</string>
+    <string name="order_comment">去评论</string>
+
+    <!-- recharge balance -->
+    <string name="recharge_balance">余额充值</string>
+    <string name="recharge_type">充值方式</string>
+    <string name="recharge">充值</string>
+    <string name="recharge_type_alipay">支付宝</string>
+    <string name="recharge_type_union">银联支付</string>
+    <string name="recharge_type_wx">微信支付</string>
+    <string name="hint_recharge_num">充值金额（整数金额）</string>
+    <string name="recharge_surprise">充值有惊喜!</string>
+    <string name="recharge_notice">在线充值到账时间约为1分钟左右，请耐心等待</string>
+
+    <!-- bonus -->
+    <string name="bonus_info">优惠券信息</string>
+    <string name="bonus_null">您暂无优惠券哦</string>
+
+    <!-- apk update -->
+    <string name="apk_update">米粒更新</string>
+    <string name="apk_update_default_info">米粒有更新哦！</string>
+    <string name="apk_downloading">更新版本正在下载哦！</string>
+    <string name="apk_download_success">新版本下载成功！</string>
+    <string name="apk_download_fail">新版本下载失败！</string>
+
+</resources>

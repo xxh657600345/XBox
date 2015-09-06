@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean
+        id="goodsHttpAdapter"
+        class-name="com.example.volley.http.impl.GoodsHttpAdapterImpl"
+        singleton="true" >
+    </bean>
+
+</beans>

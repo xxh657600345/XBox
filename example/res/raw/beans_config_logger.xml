@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <!-- logger -->
+    <bean
+        id="logger"
+        class-name="com.idea.xbox.component.logger.Logger"
+        singleton="true" >
+        <properties>
+            <property
+                name="log"
+                ref="fileLog" />
+            <property
+                name="outputLevel"
+                value="0" />
+        </properties>
+    </bean>
+    <bean
+        id="fileLog"
+        class-name="com.idea.xbox.component.logger.file.FileLog"
+        singleton="true" >
+        <properties>
+            <property
+                name="fileAmount"
+                value="5" />
+            <property
+                name="fileMaxSize"
+                value="1048576" />
+            <property
+                name="logFilePath"
+                value="/sdcard/volley/logs/volley.log" />
+        </properties>
+    </bean>
+
+</beans>

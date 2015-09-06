@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings>
+    <mapping
+        class-name="com.example.volley.model.DbGoods"
+        generator="increment"
+        primary-key="id"
+        table-name="goods" >
+        <columns>
+            <column
+                column-limit="NOT NULL"
+                column-name="id"
+                column-type="LONG"
+                property-name="id" />
+        </columns>
+    </mapping>
+
+</mappings>

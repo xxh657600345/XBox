@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#333333</color>
+    <color name="transparent">#00000000</color>
+    <color name="green">#628b3c</color>
+    <color name="green_light">#99cc00</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_light">#aaaaaa</color>
+    <color name="grey_dark">#666666</color>
+    <color name="yellow">#fd9301</color>
+    <color name="red">#ff3535</color>
+    <color name="red_press">#7fff3535</color>
+    <color name="yellow_red">#ff6601</color>
+    <color name="list_divider">#e8e8e8</color>
+    <color name="color_login_btn">#99cc00</color>
+    <color name="blue">#228fff</color>
+    <!-- market -->
+    <color name="market_title_search_bg">#3f000000</color>
+    <!-- settings -->
+    <color name="bg_grey">#f3f3f3</color>
+    <!-- region -->
+    <color name="region_background">#9f000000</color>
+    <color name="region_foreground">#3f628b3c</color>
+
+    <!-- view pager indicator -->
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+
+</resources>
